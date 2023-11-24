@@ -1,0 +1,108 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #474545;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #793a3a;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.TiM {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    color:rgb(129, 85, 32);
+    padding: 20px; 
+}
+
+.TiM img {
+    max-width: 300px; 
+    border-radius: 10%; 
+    margin-right: 5px;  
+    margin-left: 25px;
+    float: left;
+}
+
+.description {
+    float: right;
+    max-width: 66%; 
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height:max-content;
+}
+
+.bold  {
+    font-weight: bold;
+}
+.bold-first {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color:rgb(129, 85, 32);
+}
+
+.about li {
+    margin-bottom: 8px;
+    color:rgb(129, 85, 32);
+}
+
+.experience p {
+    color: rgb(129, 85, 32);
+}
+
+#msi {
+font-style: italic;
+color: dar
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
